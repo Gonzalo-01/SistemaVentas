@@ -1,104 +1,56 @@
-Sistema de Gestión de Ventas
+# Sistema de Gestión de Ventas 💼📅
 
-Descripción
+**Sistema de Gestión de Ventas es una aplicación Android desarrollada en Java que permite la administración eficiente de transacciones de ventas, registro de usuarios, generación de informes en PDF y almacenamiento en Firebase Realtime Database.
 
-El "Sistema de Gestión de Ventas" es una aplicación Android desarrollada en Android Studio con Java. Permite la gestión de transacciones de ventas, el registro de usuarios, la generación de informes en PDF y la integración con Firebase Realtime Database para el almacenamiento de datos. Además, cuenta con control de acceso basado en roles.
+## 🚀 Características principales
 
-Características
+- 💼 **Gestor de ventas: Registro, edición y eliminación de transacciones.
+- 🔑 **Control de acceso: Implementación de roles (Administrador y Empleado) con permisos diferenciados.
+- 📅 **Generación de informes: Exportación de datos en formato PDF con iTextPDF.
+- ✨ **Autenticación Firebase: Registro e inicio de sesión seguro con Firebase Authentication.
+- ☁ **Base de datos en tiempo real: Almacenamiento de datos con Firebase Realtime Database.
 
-Gestor de ventas: Registro, edición y eliminación de transacciones.
 
-Usuarios y roles: Registro de usuarios con roles de "Administrador" y "Empleado".
+##🛠️ Tecnologías utilizadas
 
-Generación de informes: Exportación de datos en formato PDF utilizando la biblioteca iTextPDF.
+- **Lenguaje:** Java ☕
+- **IDE:** Android Studio 🏗️
+- **Backend:** Firebase (Authentication & Realtime Database) ☁️
+- **Biblioteca PDF:** iTextPDF 📅
+- **Control de versiones:** Git & GitHub 🔗
 
-Integración con Firebase: Uso de Firebase Authentication y Firebase Realtime Database para almacenamiento seguro.
+## 📥 Instalación y configuración
 
-Control de acceso: Implementación de restricciones según el rol asignado al usuario.
+### 1️⃣ Clonar el repositorio
+```bash
+ git clone https://github.com/Gonzalo-01/VotmeloApp.git
+```
 
-Requisitos
+### 2️⃣ Abrir el proyecto en Android Studio
+- Asegúrate de tener **Android Studio** instalado.
+- Abre Android Studio y selecciona `Open an Existing Project`.
 
-Android Studio (versión recomendada 2023.1.1 o superior)
+### 3️⃣ Configurar Firebase
+1. Agrega el archivo `google-services.json` en la carpeta `app/`.
+2. Habilita **Authentication** y **Realtime Database** en Firebase.
 
-JDK 8 o superior
+### 5️⃣ Ejecutar la aplicación
+- Conecta un dispositivo físico o emulador y ejecuta:
+```bash
+./gradlew build && ./gradlew installDebug
+```
 
-Dispositivo Android con versión 5.0 (Lollipop) o superior
+## 👨‍💻 Contribuir
+¡Las contribuciones son bienvenidas! Sigue estos pasos:
+1. Haz un fork del repositorio 🍴
+2. Crea una nueva rama (`git checkout -b feature-nueva`)
+3. Realiza tus cambios y haz commit (`git commit -m "Agregada nueva funcionalidad"`)
+4. Haz push a la rama (`git push origin feature-nueva`)
+5. Abre un **Pull Request** 🚀
 
-Conexión a Internet para la sincronización con Firebase
 
-Instalación
+📧 **Contacto:** Para cualquier duda o sugerencia, contáctame en oscargonzalo403@gmail.com o abre un issue en este repositorio.
+Abre un Pull Request 🚀
 
-Clonar este repositorio:
+📧 Contacto: Para cualquier duda o sugerencia, contáctame en tu_correo@example.com o abre un issue en este repositorio.
 
-git clone https://github.com/tu_usuario/sistema-gestion-ventas.git
-
-Abrir el proyecto en Android Studio.
-
-Configurar Firebase:
-
-Crear un proyecto en Firebase.
-
-Agregar el archivo google-services.json en la carpeta app/.
-
-Habilitar Firebase Authentication y Firebase Realtime Database.
-
-Compilar y ejecutar la aplicación en un emulador o dispositivo físico.
-
-Configuración de Firebase
-
-Accede a Firebase Console.
-
-Crea un nuevo proyecto y agrega una aplicación Android.
-
-Descarga y coloca el archivo google-services.json en la carpeta app/.
-
-Habilita la autenticación por correo y contraseña.
-
-Configura la base de datos en tiempo real con las siguientes reglas de seguridad:
-
-{
-  "rules": {
-    "users": {
-      "$uid": {
-        ".read": "$uid === auth.uid",
-        ".write": "$uid === auth.uid"
-      }
-    }
-  }
-}
-
-Uso de la Aplicación
-
-Registro e inicio de sesión: Los usuarios pueden registrarse e iniciar sesión con autenticación Firebase.
-
-Gestor de ventas: Los administradores pueden agregar, editar y eliminar registros de ventas.
-
-Generación de informes: Se pueden exportar informes de ventas en formato PDF.
-
-Control de acceso: Los empleados tienen permisos restringidos según su rol.
-
-Bibliotecas Utilizadas
-
-Firebase Authentication - Manejo de autenticación de usuarios.
-
-Firebase Realtime Database - Almacenamiento de datos en la nube.
-
-iTextPDF - Generación de informes en PDF.
-
-Contribución
-
-Si deseas contribuir al proyecto:
-
-Haz un fork del repositorio.
-
-Crea una nueva rama (feature/nueva-funcionalidad).
-
-Realiza tus cambios y haz un commit (git commit -m "Agrega nueva funcionalidad").
-
-Sube tus cambios (git push origin feature/nueva-funcionalidad).
-
-Abre un Pull Request.
-
-Licencia
-
-Este proyecto está bajo la licencia MIT. Puedes ver el archivo LICENSE para más detalles.
