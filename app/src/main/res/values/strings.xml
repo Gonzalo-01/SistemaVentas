@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ProyectoFinal</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string-array name="roles_array">
+        <item>Administrador</item>
+        <item>Empleado</item>
+    </string-array>
+</resources>

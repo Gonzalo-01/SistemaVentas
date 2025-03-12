@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "78634547998",
+    "firebase_url": "https://proyecto-c6046-default-rtdb.firebaseio.com",
+    "project_id": "proyecto-c6046",
+    "storage_bucket": "proyecto-c6046.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:78634547998:android:05bf72edaa7a7af84f670f",
+        "android_client_info": {
+          "package_name": "com.example.proyectofinal"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCmYrSFPdMH2yDeVA696-82yZcem-3YIEY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
