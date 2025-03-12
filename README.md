@@ -11,7 +11,7 @@
 - ☁ **Base de datos en tiempo real**: Almacenamiento de datos con Firebase Realtime Database.
 
 
-##🛠️ Tecnologías utilizadas
+## 🛠️ Tecnologías utilizadas
 
 - **Lenguaje:** Java ☕
 - **IDE:** Android Studio 🏗️
