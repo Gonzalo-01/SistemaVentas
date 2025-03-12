@@ -1,14 +1,14 @@
 # Sistema de Gestión de Ventas 💼📅
 
-**Sistema de Gestión de Ventas es una aplicación Android desarrollada en Java que permite la administración eficiente de transacciones de ventas, registro de usuarios, generación de informes en PDF y almacenamiento en Firebase Realtime Database.
+**Sistema de Gestión de Ventas** es una aplicación Android desarrollada en Java que permite la administración eficiente de transacciones de ventas, registro de usuarios, generación de informes en PDF y almacenamiento en Firebase Realtime Database.
 
 ## 🚀 Características principales
 
-- 💼 **Gestor de ventas: Registro, edición y eliminación de transacciones.
-- 🔑 **Control de acceso: Implementación de roles (Administrador y Empleado) con permisos diferenciados.
-- 📅 **Generación de informes: Exportación de datos en formato PDF con iTextPDF.
-- ✨ **Autenticación Firebase: Registro e inicio de sesión seguro con Firebase Authentication.
-- ☁ **Base de datos en tiempo real: Almacenamiento de datos con Firebase Realtime Database.
+- 💼 **Gestor de ventas**: Registro, edición y eliminación de transacciones.
+- 🔑 **Control de acceso**: Implementación de roles (Administrador y Empleado) con permisos diferenciados.
+- 📅 **Generación de informes**: Exportación de datos en formato PDF con iTextPDF.
+- ✨ **Autenticación Firebase**: Registro e inicio de sesión seguro con Firebase Authentication.
+- ☁ **Base de datos en tiempo real**: Almacenamiento de datos con Firebase Realtime Database.
 
 
 ##🛠️ Tecnologías utilizadas
