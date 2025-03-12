@@ -23,7 +23,7 @@
 
 ### 1️⃣ Clonar el repositorio
 ```bash
- git clone https://github.com/Gonzalo-01/VotmeloApp.git
+  git clone https://github.com/Gonzalo-01/sistema-gestion-ventas.git
 ```
 
 ### 2️⃣ Abrir el proyecto en Android Studio
@@ -51,6 +51,4 @@
 
 📧 **Contacto:** Para cualquier duda o sugerencia, contáctame en oscargonzalo403@gmail.com o abre un issue en este repositorio.
 Abre un Pull Request 🚀
-
-📧 Contacto: Para cualquier duda o sugerencia, contáctame en tu_correo@example.com o abre un issue en este repositorio.
 
